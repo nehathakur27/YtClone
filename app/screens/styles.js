@@ -1,0 +1,48 @@
+import {StyleSheet,Dimensions} from 'react-native'
+
+export default StyleSheet.create({
+    searchBar:{
+      flexDirection:"row",
+      padding:5,
+      justifyContent:"space-around",
+      elevation:2,
+      alignItems:"center",
+    },
+    textBar:{
+       width:"70%",
+       height:"80%",
+        backgroundColor:"#e6e6e6"
+    },
+    lilCard:{
+      backgroundColor:"red",
+      width:170,
+      height:50,
+      borderRadius:4,
+      marginTop:10,
+    },
+    lilCardText:{
+      textAlign:"center",
+      color:"white",
+      marginTop:5,
+      fontSize:22,
+    },
+    alignCards:{
+      flexDirection:"row",
+      flexWrap:"wrap",
+      justifyContent:"space-around",
+    },
+    textTrend:{
+      margin:8,
+      fontSize:22,
+      borderBottomWidth:1,
+    },
+    videoRoot:{
+      width:"100%",
+      height:200,
+    },
+    videoText:{
+      fontSize:20,
+      width:Dimensions.get("screen").width-50,
+      margin:9,
+    },
+});

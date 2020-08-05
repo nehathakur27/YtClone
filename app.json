@@ -1,0 +1,10 @@
+{
+  "name": "Videos",
+  "displayName": "Videos",
+  "icon":"./assets/icon.png",
+  "splash": {
+    "image": "./assets/Video.png",
+    "resizeMode": "contain",
+    "backgroundColor": "#ffffff"
+  }
+}
